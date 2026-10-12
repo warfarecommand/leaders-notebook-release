@@ -1,0 +1,28 @@
+{
+  "product": "Leader's Notebook",
+  "version": "0.1.0",
+  "released": "2026-10-12",
+  "pack": "usmc-counseling-2026.10",
+  "notes": [
+    "Today, Marines, Calendar, and Sessions track counseling dates, relationships, targets, and records.",
+    "Three editable record formats support full counseling, NCOs, and junior Marines, with review, acknowledgment, amendments, and Word output.",
+    "Voluntary mentorship stays private and separate from counseling status and exports.",
+    "Roster and program handoffs exclude records and notes by default; the GenAI.mil method packet never includes records, notes, or mentoring.",
+    "Setup verifies the release and opens one notebook; pasted updates preserve the same address and personal data.",
+    "Read-only shares show status and the program; 0.1.0 has no telemetry, registration, or usage counts."
+  ],
+  "files": {
+    "board/board.html": "fcc2055fbeb4d3e38064afe18de66d43691ddd1caedc5155ea7e214bfd1a2492",
+    "SETUP.md": "cf0ea9663b1de16605821b954e0730a93074d49d8aeb28d198354a2d0b34343e",
+    "UPDATE.md": "133ca9c762063eb4d2c12d40fd6b4fcbc99bf2244e6e4dba4fb6fa367d0bf472",
+    "CLAUDE.md": "ee57f187597de9764d727f5210da3b80c9db31f6312c2c400260bc2d06f98bd5",
+    "SUPPORT.md": "faf1188d6ccaee693a551f9665f4650cd1a47c93ce90426f38ba5294cff307dc",
+    "PRIVACY.md": "725a6ac0a5263701cc50865bd8da3a189ad428e5939646ebc2acb4745a5bd92d",
+    "SECURITY.md": "8676710d09ef305ce857c72f02b6ce18ba3f2d339ca2b91fb3fee243a08ec281",
+    "README.md": "a7545d77fce749bba3bec22e4b697ab15f5106c79533e2597a36ee0ab6975106",
+    "CHANGELOG.md": "97c3c73bd8223c3169b603f150680a3c620018fe5bf77740d058caaabc21a148",
+    "LICENSE": "0add0bd8079bdf546b1f244484634c470a674f552abd332abf5e5689c93b8049",
+    "config.json": "90114757323bdeeb46daacd2d1af9b4f8f8b3bbc6c3a23d928d7b2e2dcf07aad",
+    "packs/usmc-counseling/pack.json": "3322f910355933a72158c908bb04042dfe7567020a294d31fc69aa6f814c6120"
+  }
+}

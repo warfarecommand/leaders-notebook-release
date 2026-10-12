@@ -1,0 +1,12 @@
+{
+  "product": "Leader's Notebook",
+  "version": "0.1.0",
+  "pack": "usmc-counseling-2026.10",
+  "release_base": "https://raw.githubusercontent.com/warfarecommand/leaders-notebook-release/main/",
+  "release_url": "https://raw.githubusercontent.com/warfarecommand/leaders-notebook-release/main/release.json",
+  "docs": "https://warfarecommand.com/leaders-notebook/",
+  "repo": "https://github.com/warfarecommand/leaders-notebook-release",
+  "publisher": "Warfare Command",
+  "setup_message": "Set up Leader's Notebook for me. Read https://raw.githubusercontent.com/warfarecommand/leaders-notebook-release/main/SETUP.md and follow it.",
+  "update_message": "Update Leader's Notebook for me. Read https://raw.githubusercontent.com/warfarecommand/leaders-notebook-release/main/UPDATE.md and follow it."
+}

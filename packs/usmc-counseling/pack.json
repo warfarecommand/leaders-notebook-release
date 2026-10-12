@@ -1,0 +1,2522 @@
+{
+  "id": "usmc-counseling-2026.10",
+  "version": "2026.10",
+  "built": "2026-10-11",
+  "sources": [
+    {
+      "id": "mco1500_61",
+      "title": "MCO 1500.61",
+      "date": "2017-07-28",
+      "file": "sources/mco1500_61.md"
+    },
+    {
+      "id": "navmc2795",
+      "title": "NAVMC 2795",
+      "date": null,
+      "file": "sources/navmc2795.md"
+    },
+    {
+      "id": "mco1610_7b_p1-34",
+      "title": "MCO 1610.7B, pages 1-34",
+      "date": "2023-06-05",
+      "file": "sources/mco1610_7b_p1-34.md"
+    },
+    {
+      "id": "mco1616_1",
+      "title": "MCO 1616.1",
+      "date": "2020-11-25",
+      "file": "sources/mco1616_1.txt",
+      "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+    },
+    {
+      "id": "maradmin634_23",
+      "title": "MARADMIN 634/23",
+      "date": "2023-12-15",
+      "file": "sources/maradmin634_23.txt",
+      "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/3618959/change-to-annual-fitness-report-schedule-for-active-component-captain-through-l/"
+    },
+    {
+      "id": "maradmin575_24",
+      "title": "MARADMIN 575/24",
+      "date": "2024-11-26",
+      "file": "sources/maradmin575_24.txt",
+      "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/3978853/amendment-2-to-the-performance-evaluation-system/"
+    },
+    {
+      "id": "maradmin209_26",
+      "title": "MARADMIN 209/26",
+      "date": "2026-05-05",
+      "file": "sources/maradmin209_26.txt",
+      "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/4477480/clarifying-guidance-pertaining-to-fitness-report-omission-criteria/"
+    },
+    {
+      "id": "fitrep_appendix_a_20241204",
+      "title": "FITREP Appendix A, 4 December 2024",
+      "date": "2024-12-04",
+      "file": "sources/fitrep_appendix_a_20241204.txt",
+      "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+    },
+    {
+      "id": "mco1900_16_ch3_6105",
+      "title": "MCO 1900.16 W/CH-3, paragraph 6105",
+      "date": "2025-05-28",
+      "file": "sources/mco1900_16_ch3_6105.txt",
+      "url": "https://www.marines.mil/Portals/1/Publications/MCO%201900.16%20ADMIN%20CH-3%20%28SECURED%29.pdf"
+    },
+    {
+      "id": "mcop1070_12k_4006",
+      "title": "MCO P1070.12K W/CH-1, paragraph 4006",
+      "date": "2000-07-14",
+      "file": "sources/mcop1070_12k_4006.txt",
+      "url": "https://www.marines.mil/Portals/1/Publications/MCO%20P1070.12K%20W%20CH%201.pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "welcome",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "welcome",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "basis": "target",
+        "days": 0
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "2001.1.a",
+        "quote": "The initial counseling session does not replace the traditional \"welcome aboard\" meeting, which occurs immediately."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "ics",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "ics",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "basis": "target",
+        "days": 30,
+        "label": "Planning target"
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "2001.1.a",
+        "quote": "The initial counseling session should occur approximately 30 days after the start of the senior/junior relationship."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "followon",
+      "binds": {
+        "rankRange": [
+          "Cpl",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "followon",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "basis": "target",
+        "days": 90,
+        "anchor": "actual-ics"
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "2001.2.a",
+        "quote": "For corporals through colonels, a follow-on session should be held approximately 90 days after the initial counseling session, and subsequent sessions should be held at intervals of no more than 6 months."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "senior-periodic",
+      "binds": {
+        "rankRange": [
+          "Cpl",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "periodic",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "basis": "rule",
+        "months": 6,
+        "anchor": "actual-session"
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "2001.2.a",
+        "quote": "subsequent sessions should be held at intervals of no more than 6 months."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "junior-monthly",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "LCpl"
+        ],
+        "component": [
+          "active",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls"
+        ]
+      },
+      "kind": "periodic",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "basis": "rule",
+        "days": 30
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "2001.3.a",
+        "quote": "Lance corporals and below should receive counseling every 30 days to ensure current and frequent feedback."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "junior-reserve-quarterly",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "LCpl"
+        ],
+        "component": [
+          "smcr",
+          "ima",
+          "irr"
+        ],
+        "role": [
+          "supervisor",
+          "fls"
+        ]
+      },
+      "kind": "periodic",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "basis": "rule",
+        "months": 3,
+        "scope": "LCpl and below only"
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "2001.3.f",
+        "quote": "An exception to the 30-day counseling period should be made for reservists. Reservists should be counseled every 3 months and once during annual training duty."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "junior-reserve-at",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "LCpl"
+        ],
+        "component": [
+          "smcr",
+          "ima",
+          "irr"
+        ],
+        "role": [
+          "supervisor",
+          "fls"
+        ]
+      },
+      "kind": "periodic",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "basis": "rule",
+        "window": "annual-training",
+        "scope": "LCpl and below only"
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "2001.3.f",
+        "quote": "Reservists should be counseled every 3 months and once during annual training duty."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "event",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "basis": "target",
+        "days": 0
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "2001.4.a",
+        "quote": "Counseling can occur at any time; it need not be limited to formal, scheduled follow-on sessions. It can be initiated by either party."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "occasion-rs-established",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "basis": "rule",
+        "event": "rs-established",
+        "jepesMapping": null
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(2)",
+        "quote": "Order and associated references include establishment of RS and MRO relationship; issuance of a fitness report; assignment of proficiency and conduct markings; eligibility for promotion; joining a new unit; PCS; assignment to Force Preservation; and major changes in billet responsibilities."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "occasion-fitrep-issued",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "basis": "rule",
+        "event": "fitrep-issued",
+        "jepesMapping": null
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(2)",
+        "quote": "Order and associated references include establishment of RS and MRO relationship; issuance of a fitness report; assignment of proficiency and conduct markings; eligibility for promotion; joining a new unit; PCS; assignment to Force Preservation; and major changes in billet responsibilities."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "occasion-marks-assigned",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "basis": "rule",
+        "event": "marks-assigned",
+        "jepesMapping": "JEPES command input replaces proficiency and conduct marks from 1 February 2021."
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(2)",
+        "quote": "Order and associated references include establishment of RS and MRO relationship; issuance of a fitness report; assignment of proficiency and conduct markings; eligibility for promotion; joining a new unit; PCS; assignment to Force Preservation; and major changes in billet responsibilities."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "occasion-promotion-eligibility",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "basis": "rule",
+        "event": "promotion-eligibility",
+        "jepesMapping": null
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(2)",
+        "quote": "Order and associated references include establishment of RS and MRO relationship; issuance of a fitness report; assignment of proficiency and conduct markings; eligibility for promotion; joining a new unit; PCS; assignment to Force Preservation; and major changes in billet responsibilities."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "occasion-join-unit",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "basis": "rule",
+        "event": "join-unit",
+        "jepesMapping": null
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(2)",
+        "quote": "Order and associated references include establishment of RS and MRO relationship; issuance of a fitness report; assignment of proficiency and conduct markings; eligibility for promotion; joining a new unit; PCS; assignment to Force Preservation; and major changes in billet responsibilities."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "occasion-pcs",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "basis": "rule",
+        "event": "pcs",
+        "jepesMapping": null
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(2)",
+        "quote": "Order and associated references include establishment of RS and MRO relationship; issuance of a fitness report; assignment of proficiency and conduct markings; eligibility for promotion; joining a new unit; PCS; assignment to Force Preservation; and major changes in billet responsibilities."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "occasion-force-preservation",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "basis": "rule",
+        "event": "force-preservation",
+        "jepesMapping": null
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(2)",
+        "quote": "Order and associated references include establishment of RS and MRO relationship; issuance of a fitness report; assignment of proficiency and conduct markings; eligibility for promotion; joining a new unit; PCS; assignment to Force Preservation; and major changes in billet responsibilities."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "occasion-billet-change",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "event",
+      "params": {
+        "basis": "rule",
+        "event": "billet-change",
+        "jepesMapping": null
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(2)",
+        "quote": "Order and associated references include establishment of RS and MRO relationship; issuance of a fitness report; assignment of proficiency and conduct markings; eligibility for promotion; joining a new unit; PCS; assignment to Force Preservation; and major changes in billet responsibilities."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "jepes-procon-mapping",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "replaces": "proficiency-and-conduct",
+        "from": "2021-02-01"
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "1, cancellation",
+        "quote": "JEPES replaces the legacy Proficiency and Conduct system",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "fitrep-section-b",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-section-b",
+      "params": {
+        "basis": "rule",
+        "days": 30,
+        "eachPeriod": true,
+        "mrowReminder": true
+      },
+      "cite": {
+        "source": "mco1610_7b_p1-34",
+        "para": "ch 2, 3.c.(2)",
+        "quote": "at the outset of each reporting period (within the first 30 days);"
+      },
+      "effective": "2023-06-05"
+    },
+    {
+      "id": "fitrep-634-amendment",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "schedules": {
+          "LtCol": [
+            2
+          ],
+          "Maj": [
+            2
+          ],
+          "Capt": [
+            3
+          ],
+          "SgtMaj": [
+            6
+          ],
+          "MGySgt": [
+            6
+          ]
+        }
+      },
+      "cite": {
+        "source": "maradmin634_23",
+        "para": "2",
+        "quote": "Effective the date of this MARADMIN, the active component Lieutenant Colonel and Major annual reporting period will end on the last day of February. The active component Captain annual reporting period will end on the last day of March. Active component E9 annual reporting period will end the last day of June.",
+        "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/3618959/change-to-annual-fitness-report-schedule-for-active-component-captain-through-l/"
+      },
+      "effective": "2023-12-15"
+    },
+    {
+      "id": "fitrep-ar-amendment",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "1stSgt"
+        ],
+        "component": [
+          "ar"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "yearFrom": 2025,
+        "months": [
+          10
+        ],
+        "previousMonths": [
+          3
+        ]
+      },
+      "cite": {
+        "source": "maradmin575_24",
+        "para": "2",
+        "quote": "Beginning in 2025, the annual reporting period for Active Reserve E5 through E8 will end on the last day of October.",
+        "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/3978853/amendment-2-to-the-performance-evaluation-system/"
+      },
+      "effective": "2025-01-01"
+    },
+    {
+      "id": "fitrep-ar-2024-transition",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "1stSgt"
+        ],
+        "component": [
+          "ar"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "year": 2024,
+        "occasion": "DC",
+        "to": "2024-11-30",
+        "requiresPriorAR": "2024-03"
+      },
+      "cite": {
+        "source": "maradmin575_24",
+        "para": "3",
+        "quote": "This year, Active Reserve Marines who received an AR fitness report in March 2024 shall receive another abbreviated fitness report utilizing the DC occasion ending 30 Nov 2024.",
+        "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/3978853/amendment-2-to-the-performance-evaluation-system/"
+      },
+      "effective": "2024-11-26"
+    },
+    {
+      "id": "fitrep-end-sgt",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "Sgt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            12
+          ],
+          "reserve": [
+            3
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": 2025
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, SGT",
+        "quote": "| SGT | DEC | MAR | OCT** |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-ssgt",
+      "binds": {
+        "rankRange": [
+          "SSgt",
+          "SSgt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            9
+          ],
+          "reserve": [
+            3
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": 2025
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, SSGT",
+        "quote": "| SSGT | SEP | MAR | OCT** |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-gysgt",
+      "binds": {
+        "rankRange": [
+          "GySgt",
+          "GySgt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            6
+          ],
+          "reserve": [
+            3
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": 2025
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, GYSGT",
+        "quote": "| GYSGT | JUN | MAR | OCT** |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-msgt",
+      "binds": {
+        "rankRange": [
+          "MSgt",
+          "MSgt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            6
+          ],
+          "reserve": [
+            3
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": 2025
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, 1STSGT/MSGT",
+        "quote": "| 1STSGT/MSGT | JUN | MAR | OCT** |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-1stsgt",
+      "binds": {
+        "rankRange": [
+          "1stSgt",
+          "1stSgt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            6
+          ],
+          "reserve": [
+            3
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": 2025
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, 1STSGT/MSGT",
+        "quote": "| 1STSGT/MSGT | JUN | MAR | OCT** |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-mgysgt",
+      "binds": {
+        "rankRange": [
+          "MGySgt",
+          "MGySgt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            6
+          ],
+          "reserve": [
+            5
+          ],
+          "ar": [
+            6
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, SGTMAJ/MGYSGT",
+        "quote": "| SGTMAJ/MGYSGT | JUN* | MAY | JUN |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-sgtmaj",
+      "binds": {
+        "rankRange": [
+          "SgtMaj",
+          "SgtMaj"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            6
+          ],
+          "reserve": [
+            5
+          ],
+          "ar": [
+            6
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, SGTMAJ/MGYSGT",
+        "quote": "| SGTMAJ/MGYSGT | JUN* | MAY | JUN |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-wo1",
+      "binds": {
+        "rankRange": [
+          "WO1",
+          "WO1"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            4
+          ],
+          "reserve": [
+            10
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, WO/CWO",
+        "quote": "| WO/CWO | APR | OCT | OCT |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-cwo2",
+      "binds": {
+        "rankRange": [
+          "CWO2",
+          "CWO2"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            4
+          ],
+          "reserve": [
+            10
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, WO/CWO",
+        "quote": "| WO/CWO | APR | OCT | OCT |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-cwo3",
+      "binds": {
+        "rankRange": [
+          "CWO3",
+          "CWO3"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            4
+          ],
+          "reserve": [
+            10
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, WO/CWO",
+        "quote": "| WO/CWO | APR | OCT | OCT |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-cwo4",
+      "binds": {
+        "rankRange": [
+          "CWO4",
+          "CWO4"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            4
+          ],
+          "reserve": [
+            10
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, WO/CWO",
+        "quote": "| WO/CWO | APR | OCT | OCT |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-cwo5",
+      "binds": {
+        "rankRange": [
+          "CWO5",
+          "CWO5"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            4
+          ],
+          "reserve": [
+            10
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, WO/CWO",
+        "quote": "| WO/CWO | APR | OCT | OCT |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-2ndlt",
+      "binds": {
+        "rankRange": [
+          "2ndLt",
+          "2ndLt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            1,
+            7
+          ],
+          "reserve": [
+            4
+          ],
+          "ar": []
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, 2NDLT",
+        "quote": "| 2NDLT | JAN/JUL | APR | N/A |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-1stlt",
+      "binds": {
+        "rankRange": [
+          "1stLt",
+          "1stLt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            4,
+            10
+          ],
+          "reserve": [
+            10
+          ],
+          "ar": [
+            10
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, 1STLT",
+        "quote": "| 1STLT | APR/OCT | OCT | OCT |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-capt",
+      "binds": {
+        "rankRange": [
+          "Capt",
+          "Capt"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            3
+          ],
+          "reserve": [
+            9
+          ],
+          "ar": [
+            6
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, CAPT",
+        "quote": "| CAPT | MAR* | SEP | JUN |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-maj",
+      "binds": {
+        "rankRange": [
+          "Maj",
+          "Maj"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            2
+          ],
+          "reserve": [
+            4
+          ],
+          "ar": [
+            4
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, MAJ",
+        "quote": "| MAJ | FEB* | APR | APR |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-ltcol",
+      "binds": {
+        "rankRange": [
+          "LtCol",
+          "LtCol"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            2
+          ],
+          "reserve": [
+            4
+          ],
+          "ar": [
+            4
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, LTCOL",
+        "quote": "| LTCOL | FEB* | APR | APR |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-end-col",
+      "binds": {
+        "rankRange": [
+          "Col",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "fitrep-period-end",
+      "params": {
+        "months": {
+          "active": [
+            4
+          ],
+          "reserve": [
+            4
+          ],
+          "ar": [
+            4
+          ]
+        },
+        "arE5E8Begins": null
+      },
+      "cite": {
+        "source": "fitrep_appendix_a_20241204",
+        "para": "Appendix A, COL",
+        "quote": "| COL | APR | APR | APR |",
+        "url": "https://www.manpower.marines.mil/Portals/236/Documents/MM/MMPB/MMPB-23/Appendix%20A%2020241204%20%281%29.pdf"
+      },
+      "effective": "2024-12-04"
+    },
+    {
+      "id": "fitrep-omission",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "withinDays": 180,
+        "automaticOmission": false
+      },
+      "cite": {
+        "source": "maradmin209_26",
+        "para": "3",
+        "quote": "Reporting officials may omit AN and Annual Reserve (AR) reports if it is known in advance that another occasion will occur within 180 days of the scheduled AN or AR occasion, except as prohibited in 3.a. and 3.b. below.",
+        "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/4477480/clarifying-guidance-pertaining-to-fitness-report-omission-criteria/"
+      },
+      "effective": "2026-05-05"
+    },
+    {
+      "id": "fitrep-omission-board",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "boardEligible": true,
+        "omit": false
+      },
+      "cite": {
+        "source": "maradmin209_26",
+        "para": "3.a",
+        "quote": "The omission of the AN and AR report is not authorized for personnel who will be considered in any zone of any board at HQMC, including boards for command, school, and slating.",
+        "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/4477480/clarifying-guidance-pertaining-to-fitness-report-omission-criteria/"
+      },
+      "effective": "2026-05-05"
+    },
+    {
+      "id": "fitrep-omission-adverse",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "adverse": true,
+        "omit": false
+      },
+      "cite": {
+        "source": "maradmin209_26",
+        "para": "3.b",
+        "quote": "The omission of the annual report is not authorized when the report would be adverse.",
+        "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/4477480/clarifying-guidance-pertaining-to-fitness-report-omission-criteria/"
+      },
+      "effective": "2026-05-05"
+    },
+    {
+      "id": "fitrep-omission-academic",
+      "binds": {
+        "rankRange": [
+          "Sgt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "rs"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "academicUnderMonths": 12,
+        "academicReportRequired": true
+      },
+      "cite": {
+        "source": "maradmin209_26",
+        "para": "3.c",
+        "quote": "The omission is authorized, regardless of board eligibility, for any MRO assigned to academic training of less than 12 months duration who will receive an academic fitness report.",
+        "url": "https://www.marines.mil/News/Messages/Messages-Display/Article/4477480/clarifying-guidance-pertaining-to-fitness-report-omission-criteria/"
+      },
+      "effective": "2026-05-05"
+    },
+    {
+      "id": "jepes-initial",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls"
+        ]
+      },
+      "kind": "jepes-initial",
+      "params": {
+        "basis": "rule",
+        "days": 30
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 1.b.(1)",
+        "quote": "Provide the MRO an initial written counseling within 30 days of the relationship being established, defining the MRO\u2019s billet description, role in the unit, responsibilities, and performance expectations.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-semiannual",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "jepes-occasion",
+      "params": {
+        "occasion": "SA",
+        "periods": [
+          {
+            "from": "02-01",
+            "to": "07-31"
+          },
+          {
+            "from": "08-01",
+            "to": "01-31"
+          }
+        ]
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(7)",
+        "quote": "(7) SA (Semi-Annual). Complete an evaluation every six months of the year from February through July, and August through January. FROM DATE: 1 February/1 August. TO DATE: 31 July/31 January.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-reserve-annual",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "smcr",
+          "ima",
+          "irr"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "jepes-occasion",
+      "params": {
+        "occasion": "AN",
+        "periods": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ]
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(6)",
+        "quote": "(6) AN (Annual). Complete an evaluation annually for Marines in the Reserve Component. FROM DATE: 1 January. TO DATE: 31 December.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-pr",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "PR",
+        "event": "promotion",
+        "offsetDays": -1,
+        "toRanks": [
+          "Cpl",
+          "Sgt"
+        ]
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(1)",
+        "quote": "TO DATE: The day prior to the MRO\u2019s new date of rank.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-tr",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "TR",
+        "event": "transfer",
+        "offsetDays": 0
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(2)",
+        "quote": "TO DATE: The MRO\u2019s date of transfer.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-cd",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "CD",
+        "event": "billet-change",
+        "offsetDays": -1
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(3)",
+        "quote": "TO DATE: Date prior to the date of change of duty.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-td",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "TD",
+        "event": "to-tad",
+        "minimumDurationDays": 31,
+        "offsetDays": 0
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(4)",
+        "quote": "TO DATE: The MRO\u2019s date of departure to TAD.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-tc",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "TC",
+        "event": "tad-complete",
+        "minimumDurationDays": 31,
+        "offsetDays": 0
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(5)",
+        "quote": "TO DATE: The MRO\u2019s date of departure from TAD site.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-at",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "smcr",
+          "ima",
+          "irr"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "AT",
+        "event": "annual-training",
+        "offsetDays": 0,
+        "annualOmissionWithinDays": 90
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(8)",
+        "quote": "First day of annual training. TO DATE: Last day of annual training.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-dc",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "DC",
+        "event": "discharge",
+        "offsetDays": -1
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(9)",
+        "quote": "TO DATE: Day before discharge.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-rd",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "RD",
+        "event": "reduction",
+        "offsetDays": -1
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(10)",
+        "quote": "TO DATE: Last day at previous rank.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-dd",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "DD",
+        "event": "declared-deserter",
+        "offsetDays": 0
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(11)",
+        "quote": "TO DATE: First day Marine in Deserter Status.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-occasion-rt",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "smcr",
+          "ima",
+          "irr"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "occasion": "RT",
+        "event": "ados-complete",
+        "offsetDays": 0
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.b.(12)",
+        "quote": "FROM DATE: First day of ADOS. END DATE: Last day of ADOS.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-omissions",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "withinDays": 30,
+        "sameCommand": true
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 2, 2.d.(1)",
+        "quote": "Another reporting occasion under the same command occurred 30 days or less prior to the end date of the AN or SA reporting period.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "jepes-debrief",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Cpl"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "fls",
+          "evaluator"
+        ]
+      },
+      "kind": "closeout",
+      "params": {
+        "basis": "target",
+        "afterDays": 1,
+        "label": "Planning target after occasion; no separate deadline specified"
+      },
+      "cite": {
+        "source": "mco1616_1",
+        "para": "ch 1, 6.f",
+        "quote": "receives a debriefing from the First Line Supervisor and/or the reporting chain.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201616.1.pdf"
+      },
+      "effective": "2021-02-01"
+    },
+    {
+      "id": "record-handling",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "pairOnly": true,
+        "destroyAtRelationshipEnd": true,
+        "legalHoldPauses": true
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "3005.1.i",
+        "quote": "Documentation of a counseling session is for use only by the senior and the junior. It is not to be forwarded to an officer in the reporting chain, nor is it to be passed from one senior to the next when the senior/junior relationship ends. When the relationship is terminated, all documentation is destroyed."
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "target-count",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "review",
+      "params": {
+        "effectiveBasis": "Pack adoption; publication effective date is absent from the supplied transcription.",
+        "min": 3,
+        "max": 5,
+        "severity": "advise"
+      },
+      "cite": {
+        "source": "navmc2795",
+        "para": "4002.1.i.(4)",
+        "quote": "generally three to five"
+      },
+      "effective": "2026-10-11"
+    },
+    {
+      "id": "functional-areas",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "areas": [
+          "Fidelity",
+          "Fighter",
+          "Fitness",
+          "Family",
+          "Finances",
+          "Future"
+        ]
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.a.(2)(d)",
+        "quote": "six functional areas of leader development provide a comprehensive framework to focus training and coaching/counseling sessions."
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "mentoring-voluntary",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "mentor"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "voluntary": true,
+        "outsideChain": true
+      },
+      "cite": {
+        "source": "mco1500_61",
+        "para": "4.c.(1)(d)",
+        "quote": "Mentoring is a voluntary relationship between two"
+      },
+      "effective": "2017-07-28"
+    },
+    {
+      "id": "adverse-routing",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "routingOnly": true,
+        "elements": [
+          "Written deficiencies",
+          "Corrective recommendations and available assistance",
+          "Consequences",
+          "Reasonable opportunity to correct",
+          "Commanding officer signature"
+        ],
+        "officerRoute": "Separate officer procedures; no enlisted 6105 requirement inferred."
+      },
+      "cite": {
+        "source": "mco1900_16_ch3_6105",
+        "para": "6105.3",
+        "quote": "The commanding officer must sign adverse page 11 entries.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201900.16%20ADMIN%20CH-3%20%28SECURED%29.pdf"
+      },
+      "effective": "2025-05-28"
+    },
+    {
+      "id": "adverse-elements",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "SgtMaj"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "routingOnly": true
+      },
+      "cite": {
+        "source": "mco1900_16_ch3_6105",
+        "para": "6105.3.a-d",
+        "quote": "a. Written notification concerning deficiencies or impairments; b. Specific recommendations for corrective action, indicating any assistance available; c. Comprehensive explanation of the consequences of failure to successfully take the recommended corrective action; and, d. Reasonable opportunity for the Marine to undertake the recommended corrective action.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201900.16%20ADMIN%20CH-3%20%28SECURED%29.pdf"
+      },
+      "effective": "2025-05-28"
+    },
+    {
+      "id": "adverse-rebuttal",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "routingOnly": true,
+        "workingDays": 5
+      },
+      "cite": {
+        "source": "mcop1070_12k_4006",
+        "para": "4006.2.e",
+        "quote": "Marine will have 5 working days after referral of the entry to return the completed statement to the commander for filing in the service record.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%20P1070.12K%20W%20CH%201.pdf"
+      },
+      "effective": "2000-07-14"
+    },
+    {
+      "id": "adverse-refusal",
+      "binds": {
+        "rankRange": [
+          "Pvt",
+          "Col"
+        ],
+        "component": [
+          "active",
+          "smcr",
+          "ima",
+          "irr",
+          "ar",
+          "orders"
+        ],
+        "role": [
+          "supervisor",
+          "fls",
+          "rs",
+          "evaluator"
+        ]
+      },
+      "kind": "reference",
+      "params": {
+        "routingOnly": true
+      },
+      "cite": {
+        "source": "mcop1070_12k_4006",
+        "para": "4006.2.e, note",
+        "quote": "Make a counter-entry immediately following the counseling entry to verify the Marine was made aware of the adverse/derogatory entry.",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%20P1070.12K%20W%20CH%201.pdf"
+      },
+      "effective": "2000-07-14"
+    }
+  ],
+  "recordGuidance": {
+    "billet": {
+      "billetLineChars": 88,
+      "billetMaxLines": 15,
+      "billetTargetChars": [
+        600,
+        1100
+      ],
+      "constantCitations": {
+        "billetLineChars": "A-PES Section B box, measured from issued reports; MCO 1610.7B ch 4 para 5",
+        "billetMaxLines": "A-PES Section B box, measured from issued reports; MCO 1610.7B ch 4 para 5",
+        "billetTargetChars": "A-PES Section B box, measured from issued reports; MCO 1610.7B ch 4 para 5"
+      },
+      "cite": {
+        "source": "MCO 1610.7B",
+        "para": "Encl (2), ch 4, para 5",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCO%201610.7B%20SECURED.pdf",
+        "evidence": "Official order indexed text and owner direction; the supplied local excerpt covers pages 1-34 only.",
+        "quotes": [
+          "It must focus on acceptable standards vice goals.",
+          "Make entries using bulletized text format.",
+          "Omit superlative adjectives, needless statistics, and imprecise phrasing."
+        ]
+      },
+      "measurement": {
+        "basis": "Supervisor measurement from issued A-PES reports. Approximation only; the order gives no numeric box limit."
+      },
+      "rules": [
+        "Describe the significant primary, additional and special duties and the nature of the billet for this period.",
+        "Frame the most significant expectations as acceptable standards. Leave MOS prerequisites out.",
+        "Use concise hyphen bullets within the available space. No addendum.",
+        "Use objective words without billet valuation, superlatives, needless statistics or imprecise phrasing.",
+        "Use normal capitalization and widely understood service abbreviations. Leave out emphasis, quotation marks and exclamation points."
+      ]
+    }
+  }
+}
