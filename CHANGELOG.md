@@ -1,6 +1,13 @@
 <!-- Reader: Marine leaders updating their notebook. Effect: see the release changes. -->
 # Release notes
 
+## 0.1.1 (2026-10-12)
+
+- The Warfare Command family design shares its look with Muster Out, with a new header date stamp, grouped roster, and Calendar agenda.
+- The session sheet gives the record more room on a phone, uses one primary action, and asks before dropping unsaved edits.
+- Due and late status are clearer, with one format for dates and session types throughout the notebook.
+- The product page follows the Warfare Command family design.
+
 ## 0.1.0 (2026-10-12)
 
 - Today, Marines, Calendar, and Sessions track counseling dates, relationships, targets, and records.

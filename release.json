@@ -1,28 +1,26 @@
 {
   "product": "Leader's Notebook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "released": "2026-10-12",
   "pack": "usmc-counseling-2026.10",
   "notes": [
-    "Today, Marines, Calendar, and Sessions track counseling dates, relationships, targets, and records.",
-    "Three editable record formats support full counseling, NCOs, and junior Marines, with review, acknowledgment, amendments, and Word output.",
-    "Voluntary mentorship stays private and separate from counseling status and exports.",
-    "Roster and program handoffs exclude records and notes by default; the GenAI.mil method packet never includes records, notes, or mentoring.",
-    "Setup verifies the release and opens one notebook; pasted updates preserve the same address and personal data.",
-    "Read-only shares show status and the program; 0.1.0 has no telemetry, registration, or usage counts."
+    "The Warfare Command family design shares its look with Muster Out, with a new header date stamp, grouped roster, and Calendar agenda.",
+    "The session sheet gives the record more room on a phone, uses one primary action, and asks before dropping unsaved edits.",
+    "Due and late status are clearer, with one format for dates and session types throughout the notebook.",
+    "The product page follows the Warfare Command family design."
   ],
   "files": {
-    "board/board.html": "fcc2055fbeb4d3e38064afe18de66d43691ddd1caedc5155ea7e214bfd1a2492",
+    "board/board.html": "62a4e3cf5e20b3f4895beb465f9aef4c8f5ad85d321bace236437a7ed18983ed",
     "SETUP.md": "cf0ea9663b1de16605821b954e0730a93074d49d8aeb28d198354a2d0b34343e",
-    "UPDATE.md": "133ca9c762063eb4d2c12d40fd6b4fcbc99bf2244e6e4dba4fb6fa367d0bf472",
-    "CLAUDE.md": "ee57f187597de9764d727f5210da3b80c9db31f6312c2c400260bc2d06f98bd5",
-    "SUPPORT.md": "faf1188d6ccaee693a551f9665f4650cd1a47c93ce90426f38ba5294cff307dc",
-    "PRIVACY.md": "725a6ac0a5263701cc50865bd8da3a189ad428e5939646ebc2acb4745a5bd92d",
-    "SECURITY.md": "8676710d09ef305ce857c72f02b6ce18ba3f2d339ca2b91fb3fee243a08ec281",
-    "README.md": "a7545d77fce749bba3bec22e4b697ab15f5106c79533e2597a36ee0ab6975106",
-    "CHANGELOG.md": "97c3c73bd8223c3169b603f150680a3c620018fe5bf77740d058caaabc21a148",
+    "UPDATE.md": "1de5e61430ab711007734bdf1e30cc8ccf4c59c7d056417134649919c95cb3d2",
+    "CLAUDE.md": "322a15cd94d7912bd9ef3a33d1c258356b8d3f69b8ecd410e4fbc13bf00b02ea",
+    "SUPPORT.md": "0938e01862f9b4ef3e9b96c92df32b29d1576f962c322d28401d335cbaf73b24",
+    "PRIVACY.md": "6b9258ec1775be1492df1e84a9ff4caa09fa02653d7613abee734743597db12d",
+    "SECURITY.md": "4742139cccaa6d5aceebcbc3092d66bc09fe1a17f8d820ca7fc13a3a2f401e1e",
+    "README.md": "731612f943e05686ee2a9df588e0715c916dfe9a953521f9bf310c5cff03f558",
+    "CHANGELOG.md": "36144ce216cc2ca73b76fe48a284c4a26dd3713ea0ee6e630b43e8d2b8302254",
     "LICENSE": "0add0bd8079bdf546b1f244484634c470a674f552abd332abf5e5689c93b8049",
-    "config.json": "90114757323bdeeb46daacd2d1af9b4f8f8b3bbc6c3a23d928d7b2e2dcf07aad",
+    "config.json": "d6b7d76df9a37548e60cf3b175cf5586a925e4d458a853d0f1f575c54ff9d8b2",
     "packs/usmc-counseling/pack.json": "3322f910355933a72158c908bb04042dfe7567020a294d31fc69aa6f814c6120"
   }
 }

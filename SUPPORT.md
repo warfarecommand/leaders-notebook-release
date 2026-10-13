@@ -1,7 +1,7 @@
 <!-- Reader: Marine leaders. Effect: recover setup or saving at the same notebook address. -->
 # Setup help and supported situations
 
-Leader's Notebook 0.1.0 uses pack `usmc-counseling-2026.10`.
+Leader's Notebook 0.1.1 uses pack `usmc-counseling-2026.10`.
 
 ## Supported situations
 
@@ -49,7 +49,7 @@ Send this message in a Claude chat:
 Update Leader's Notebook for me. Read https://raw.githubusercontent.com/warfarecommand/leaders-notebook-release/main/UPDATE.md and follow it.
 ```
 
-Claude checks every release file, shows the changes, and asks once before replacing the page at the same artifact URL. Personal data stays. An interrupted update keeps its target and recovery marker. Resume it at the same address. A hash mismatch, changed target, or incomplete data readback stops the update. Never clear a marker to hide a failure. Signed one-tap updates are not enabled in 0.1.0.
+Claude checks every release file, shows the changes, and asks once before replacing the page at the same artifact URL. Personal data stays. An interrupted update keeps its target and recovery marker. Resume it at the same address. A hash mismatch, changed target, or incomplete data readback stops the update. Never clear a marker to hide a failure. Signed one-tap updates are not enabled.
 
 ## Read-only shares and turnover
 
@@ -70,7 +70,7 @@ The adverse card is available on every record. Advisory signals never decide tha
 
 ## Report a problem
 
-Use Report a problem from any notebook screen. Copy diagnostic works without Ask or saved records. Review version, pack, screen, capability states, and recent error classes. The diagnostic excludes personal values and stack traces. Version 0.1.0 sends nothing automatically.
+Use Report a problem from any notebook screen. Copy diagnostic works without Ask or saved records. Review version, pack, screen, capability states, and recent error classes. The diagnostic excludes personal values and stack traces. Leader's Notebook sends nothing automatically.
 
 Review the text before you choose to email [feedback@warfarecommand.com](mailto:feedback@warfarecommand.com). Include the version, screen, what you tried, what happened, and a clean diagnostic if useful. Exclude names, service dates, notebook links, record text, and protected details. Report security issues privately to [security@warfarecommand.com](mailto:security@warfarecommand.com). Do not post a private record in a public issue.
 
@@ -84,7 +84,7 @@ Use ChatGPT or Grok first for reusable skills and visual work. Verify the saved 
 
 ## Full reset
 
-Automatic deletion of the entire saved notebook is unavailable in 0.1.0 because the page cannot bind a delete to a concurrent legal hold. Archive Marines to keep their entries. Use Delete records on an archived Marine's page only when you choose deletion. A retained legacy reset journal offers restoration of missing documents. Delete downloaded files separately.
+Automatic deletion of the entire saved notebook is unavailable because the page cannot bind a delete to a concurrent legal hold. Archive Marines to keep their entries. Use Delete records on an archived Marine's page only when you choose deletion. A retained legacy reset journal offers restoration of missing documents. Delete downloaded files separately.
 
 
 ## Current platform limits

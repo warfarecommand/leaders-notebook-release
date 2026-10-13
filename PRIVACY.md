@@ -1,11 +1,11 @@
 <!-- Reader: Marine leaders using the notebook. Effect: know who can read data and how to remove it. -->
 # Privacy and deletion
 
-Last updated 12 OCT 2026. Applies to Leader's Notebook 0.1.0.
+Last updated 12 OCT 2026. Applies to Leader's Notebook 0.1.1.
 
 ## Where your data lives
 
-Your notebook lives in your Claude account. Anthropic hosts and processes it under your account's terms. Warfare Command has no account on it and receives nothing from it. Version 0.1.0 has no telemetry, registration, ingest, or usage counts. The site's Copy and Open in Claude actions send no count.
+Your notebook lives in your Claude account. Anthropic hosts and processes it under your account's terms. Warfare Command has no account on it and receives nothing from it. Leader's Notebook has no telemetry, registration, ingest, or usage counts. The site's Copy and Open in Claude actions send no count.
 
 Names, rank, PMOS, billet, dates, and the record text you write are stored by default. EDIPI and DOR are entered at print unless you choose to store them. Social Security numbers are refused. Keep medical and protected material out. Anyone using your login can read your notebook.
 

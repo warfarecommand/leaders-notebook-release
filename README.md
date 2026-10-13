@@ -3,7 +3,7 @@
 
 Counseling and mentorship for Marines you lead. Track counseling dates, write your records, and review each Marine's goals in your own Claude account.
 
-Version 0.1.0 uses pack `usmc-counseling-2026.10`. Warfare Command publishes the notebook. Anthropic hosts it under your login. Warfare Command has no account on it and receives nothing from it. This release has no telemetry, registration, or usage counts.
+Version 0.1.1 uses pack `usmc-counseling-2026.10`. Warfare Command publishes the notebook. Anthropic hosts it under your login. Warfare Command has no account on it and receives nothing from it. This release has no telemetry, registration, or usage counts.
 
 ## Set up your notebook
 
@@ -43,7 +43,7 @@ Read [privacy and deletion](PRIVACY.md). Adverse matters use the routing card; t
 Update Leader's Notebook for me. Read https://raw.githubusercontent.com/warfarecommand/leaders-notebook-release/main/UPDATE.md and follow it.
 ```
 
-Claude verifies all release files and shows the changes before updating the same artifact URL. Your personal data stays. Version 0.1.0 uses this pasted update path.
+Claude verifies all release files and shows the changes before updating the same artifact URL. Your personal data stays. Leader's Notebook uses this pasted update path.
 
 The [product page](https://warfarecommand.com/leaders-notebook/) has setup and help. The [public release repository](https://github.com/warfarecommand/leaders-notebook-release) holds verified installation files. See [security](SECURITY.md) for private reports. Propose changes through the [public repository's issues](https://github.com/warfarecommand/leaders-notebook-release/issues).
 

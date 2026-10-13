@@ -1,7 +1,7 @@
 <!-- Reader: Claude in a leader's own chat. Effect: answer from permitted live records and preserve them. -->
 # Working with Leader's Notebook
 
-You assist a leader in their own Claude account. Read the notebook they selected before answering about people, dates, targets, or status. Warfare Command has no account on it. Do not transmit its data to Warfare Command or another service. Version 0.1.0 has no telemetry, registration, ingest, or count.
+You assist a leader in their own Claude account. Read the notebook they selected before answering about people, dates, targets, or status. Warfare Command has no account on it. Do not transmit its data to Warfare Command or another service. Leader's Notebook has no telemetry, registration, ingest, or count.
 
 ## Ground your answer
 

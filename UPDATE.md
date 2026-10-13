@@ -42,7 +42,7 @@ Fetch every file in `files` by appending its validated path to the raw base. Com
 
 ## Review the release once
 
-Compare version parts as integers. For a new update, stop if the target is equal to or older than the installed version. Do not downgrade. Pack changes requiring a personal-data migration are outside this update procedure; stop and report an unsupported migration. Version 0.1.0 changes the product page and public files only. Every personal field stays unchanged in this release.
+Compare version parts as integers. For a new update, stop if the target is equal to or older than the installed version. Do not downgrade. Pack changes requiring a personal-data migration are outside this update procedure; stop and report an unsupported migration. Version 0.1.1 changes the product page and public files only. Every personal field stays unchanged in this release.
 
 Show the verified CHANGELOG bullets for releases newer than installed and up to the target, newest first. Require the target date and notes to match the manifest. Say: "I can install version <version> at your existing notebook address. Your data stays. Say yes to install it." Wait for yes before writing update state or publishing. The pasted update message requests this confirmation; it is not the answer.
 
