@@ -1,6 +1,15 @@
 <!-- Reader: Marine leaders updating their notebook. Effect: see the release changes. -->
 # Release notes
 
+## 0.1.2 (2026-10-12)
+
+- The wordmark now uses the family letter spacing.
+- The header keeps the wordmark full size at large text.
+- The GenAI.mil packet carries your standing guidance.
+- Export no longer blocks on ordinary words and names.
+- Custom template text is checked before it leaves.
+- The routing example and setup checks are clearer.
+
 ## 0.1.1 (2026-10-12)
 
 - The Warfare Command family design shares its look with Muster Out, with a new header date stamp, grouped roster, and Calendar agenda.

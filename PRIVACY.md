@@ -1,7 +1,7 @@
 <!-- Reader: Marine leaders using the notebook. Effect: know who can read data and how to remove it. -->
 # Privacy and deletion
 
-Last updated 12 OCT 2026. Applies to Leader's Notebook 0.1.1.
+Last updated 12 OCT 2026. Applies to Leader's Notebook 0.1.2.
 
 ## Where your data lives
 
@@ -31,7 +31,7 @@ Setup and pasted updates fetch public release files from GitHub with plain GETs.
 - Export all records creates a JSON copy of every stored counseling session, including records for archived Marines. It excludes private notes and mentoring. A legal hold blocks any export containing the held Marine.
 - The Marine's closeout copy is JSON with their roster fields, counseling sessions, targets, and personal goals. It excludes private notes and mentoring. A legal hold pauses this departure export and destruction until reviewed with admin and the SJA.
 - A program export contains the counseling program generated from your setup: roles, cadence sources, overrides, unit rules, drill and annual training dates, forms, weekly review, record handling, your unit header, and text you edited. Review those fields before sharing.
-- The GenAI.mil method packet contains instructions, a manifest with hashes, cited rule excerpts, cadence and review rules, the adverse boundary, record handling rules, 3 record templates, standing guidance, schemas, synthetic examples, and verification checks. Its signature block has placeholders to fill on the government side. A second tap can add a roster containing Marine, rank, tier, relationship, and next due. Records, notes, and mentoring never enter the packet. Review templates and standing guidance for personal details before saving or moving it.
+- The GenAI.mil method packet contains instructions, a manifest with hashes, cited rule excerpts, cadence and review rules, the adverse boundary, record handling rules, 3 record templates, saved standing guidance, blank record and session schemas, synthetic worked examples including adverse routing, and verify/CHECKS.md with exact prompts and pass criteria. Its signature block has placeholders to fill on the government side. A second tap can add a roster containing Marine, rank, tier, relationship, and next due. Records, notes, and mentoring never enter the packet. Review templates and standing guidance for personal details before saving or moving it.
 
 Saved exports live wherever you put them. Warfare Command cannot retrieve or delete those copies. Moving a packet through DoD SAFE or loading it into GenAI.mil creates copies governed by those systems and your command's rules.
 

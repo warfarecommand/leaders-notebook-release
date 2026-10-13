@@ -1,7 +1,7 @@
 <!-- Reader: Marine leaders. Effect: recover setup or saving at the same notebook address. -->
 # Setup help and supported situations
 
-Leader's Notebook 0.1.1 uses pack `usmc-counseling-2026.10`.
+Leader's Notebook 0.1.2 uses pack `usmc-counseling-2026.10`.
 
 ## Supported situations
 
@@ -76,11 +76,11 @@ Review the text before you choose to email [feedback@warfarecommand.com](mailto:
 
 ## Export to GenAI.mil
 
-The method packet contains cited rules, record templates, standing guidance, synthetic examples, and checks. Records, notes, and mentoring stay out. Add a roster only on the second tap after reviewing the included fields. Review the complete file list before saving.
+The method packet contains cited rules, three Word and Markdown record templates, saved standing guidance, blank record and session schemas, synthetic examples including adverse routing, and verify/CHECKS.md with exact prompts and pass criteria. Records, notes, and mentoring stay out. Add a roster only on the second tap after reviewing the included fields. Review the complete file list before saving.
 
 On the CAC side, go to DoD SAFE, log in, choose Send a drop-off request, enter the email address you will upload from, and send. On your personal device, open the request email, continue as a guest, upload the packet, and send. Retrieve the pickup on the CAC side and upload the files to GenAI.mil with PROMPT.txt.
 
-Use ChatGPT or Grok first for reusable skills and visual work. Verify the saved skill in a new session without re-uploading, test all 3 record formats and the adverse example, and confirm sharing with another authorized person. Persistence and sharing require the named model acceptance checks.
+Load the packet and use PROMPT.txt. Run verify/CHECKS.md to find out whether the receiving model can reuse the skill in a new session, keep the junior worksheet format, and route the adverse example. Test the other two formats and confirm sharing with another authorized person. The packet README explains sharing and updates. If persistence is unavailable, use the packet and prompt in each session. Persistence and sharing require the named model acceptance checks.
 
 ## Full reset
 

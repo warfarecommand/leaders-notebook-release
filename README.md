@@ -3,7 +3,7 @@
 
 Counseling and mentorship for Marines you lead. Track counseling dates, write your records, and review each Marine's goals in your own Claude account.
 
-Version 0.1.1 uses pack `usmc-counseling-2026.10`. Warfare Command publishes the notebook. Anthropic hosts it under your login. Warfare Command has no account on it and receives nothing from it. This release has no telemetry, registration, or usage counts.
+Version 0.1.2 uses pack `usmc-counseling-2026.10`. Warfare Command publishes the notebook. Anthropic hosts it under your login. Warfare Command has no account on it and receives nothing from it. This release has no telemetry, registration, or usage counts.
 
 ## Set up your notebook
 
@@ -31,7 +31,7 @@ Marines Pvt through Col, active and reserve, are supported. Sailors and civilian
 
 NAVMC 2795 para 3005.1.i keeps counseling documentation between the senior and junior. It is not forwarded up the reporting chain or passed to the next senior, and it is destroyed when the relationship ends. Archive is the default after closeout counseling and keeps your entries. Reactivate restores the Marine. Delete records is a separate later choice. Export as necessary. A legal hold pauses export and destruction; consult admin and the SJA.
 
-A read-only share shows status and the program document. Records, notes, targets' text, and mentoring stay private. Anyone using your login can read your notebook. The GenAI.mil packet carries your method and templates; records, notes, and mentoring never enter it. Review every export before moving it.
+A read-only share shows status and the program document. Records, notes, targets' text, and mentoring stay private. Anyone using your login can read your notebook. The GenAI.mil packet carries cited rules, three Word and Markdown templates, blank record and session schemas, fictional examples including adverse routing, and verify/CHECKS.md. It also carries your verbatim standing guidance, custom template labels, and the optional roster. Roster names read Last, First MI, and next due uses the 12 OCT 2026 date format. Records, notes, and mentoring never enter it. Use the packet and PROMPT.txt, then run the checks to find out whether the receiving model can reuse the skill in a new session. Review every export before moving it.
 
 Use the notebook for Marines you lead. Keep Social Security numbers, medical details, protected communications, classified information, and CUI out of it. Records your command requires stay in your command's system.
 
