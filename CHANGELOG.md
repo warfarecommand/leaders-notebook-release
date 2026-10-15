@@ -1,6 +1,15 @@
 <!-- Reader: Marine leaders updating their notebook. Effect: see the release changes. -->
 # Release notes
 
+## 0.1.3 (2026-10-15)
+
+- The notebook follows the new Warfare Command design: tighter spacing, one type scale, and compact headers.
+- Rows show a quiet initials circle with room before the name.
+- Store identifiers is now an on and off switch.
+- The first session step says Close, since your draft is already saved.
+- Today shows the next due date once, in the header.
+- Empty sections and section headings look the same on every screen.
+
 ## 0.1.2 (2026-10-12)
 
 - The wordmark now uses the family letter spacing.

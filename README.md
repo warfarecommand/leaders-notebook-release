@@ -3,7 +3,7 @@
 
 Counseling and mentorship for Marines you lead. Track counseling dates, write your records, and review each Marine's goals in your own Claude account.
 
-Version 0.1.2 uses pack `usmc-counseling-2026.10`. Warfare Command publishes the notebook. Anthropic hosts it under your login. Warfare Command has no account on it and receives nothing from it. This release has no telemetry, registration, or usage counts.
+Version 0.1.3 uses pack `usmc-counseling-2026.10`. Warfare Command publishes the notebook. Anthropic hosts it under your login. Warfare Command has no account on it and receives nothing from it. This release has no telemetry, registration, or usage counts.
 
 ## Set up your notebook
 

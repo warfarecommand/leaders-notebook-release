@@ -1,7 +1,7 @@
 <!-- Reader: Marine leaders. Effect: recover setup or saving at the same notebook address. -->
 # Setup help and supported situations
 
-Leader's Notebook 0.1.2 uses pack `usmc-counseling-2026.10`.
+Leader's Notebook 0.1.3 uses pack `usmc-counseling-2026.10`.
 
 ## Supported situations
 

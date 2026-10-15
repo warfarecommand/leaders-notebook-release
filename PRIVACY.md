@@ -1,7 +1,7 @@
 <!-- Reader: Marine leaders using the notebook. Effect: know who can read data and how to remove it. -->
 # Privacy and deletion
 
-Last updated 12 OCT 2026. Applies to Leader's Notebook 0.1.2.
+Last updated 12 OCT 2026. Applies to Leader's Notebook 0.1.3.
 
 ## Where your data lives
 

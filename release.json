@@ -1,28 +1,28 @@
 {
   "product": "Leader's Notebook",
-  "version": "0.1.2",
-  "released": "2026-10-12",
+  "version": "0.1.3",
+  "released": "2026-10-15",
   "pack": "usmc-counseling-2026.10",
   "notes": [
-    "The wordmark now uses the family letter spacing.",
-    "The header keeps the wordmark full size at large text.",
-    "The GenAI.mil packet carries your standing guidance.",
-    "Export no longer blocks on ordinary words and names.",
-    "Custom template text is checked before it leaves.",
-    "The routing example and setup checks are clearer."
+    "The notebook follows the new Warfare Command design: tighter spacing, one type scale, and compact headers.",
+    "Rows show a quiet initials circle with room before the name.",
+    "Store identifiers is now an on and off switch.",
+    "The first session step says Close, since your draft is already saved.",
+    "Today shows the next due date once, in the header.",
+    "Empty sections and section headings look the same on every screen."
   ],
   "files": {
-    "board/board.html": "cd32b2fe0e139377d2fdf4cf6a51ac398f62dde8a1aec513f452a0ee755bdf8d",
+    "board/board.html": "4811360ba85123eb6116b2ec5fe09004bc37f14d2ee23fd616f17f5da61b5b0a",
     "SETUP.md": "cf0ea9663b1de16605821b954e0730a93074d49d8aeb28d198354a2d0b34343e",
     "UPDATE.md": "e141768c9c6e138c3d31a225f7d071670651934b48f3f631d923391eab8391f6",
     "CLAUDE.md": "322a15cd94d7912bd9ef3a33d1c258356b8d3f69b8ecd410e4fbc13bf00b02ea",
-    "SUPPORT.md": "0b730bac1435da926d1dc7b376f18c300dd2d8ac20d88a591e98733d00c35539",
-    "PRIVACY.md": "875d6bd24f0130d7b6526f908c8e38efd456ae22044b31f55047505c164f8d50",
+    "SUPPORT.md": "7d2427065798d1caf76a2c034c2b0f94d7eaadf69f2b2c425168f940f0abca91",
+    "PRIVACY.md": "bc8f55fffaf3a0163f5113910a0390ddf033cb792dac7a9407aeb8ea33e95c59",
     "SECURITY.md": "4742139cccaa6d5aceebcbc3092d66bc09fe1a17f8d820ca7fc13a3a2f401e1e",
-    "README.md": "d82f683a08cdcbe089a2fee7186bb88954d708c7e24b942a1be1544889c86292",
-    "CHANGELOG.md": "1f76b1af1616c300b7b25781fadeec6d5442abcc2a2ab71acaf774fe14a064d9",
+    "README.md": "eefcf18bcebbe37e13a59538e469fed84bd65327d6bdc2c0c5c0e6c73202d89a",
+    "CHANGELOG.md": "5a6a5abfdfe22b3b0d5f5c8b86158637abdb3bb5f272d172b108ea753354fe52",
     "LICENSE": "0add0bd8079bdf546b1f244484634c470a674f552abd332abf5e5689c93b8049",
-    "config.json": "cad9c92f3e1280a5e1ae8c0f88342b74d46c18b7378624746ed0a773f94e8f9a",
+    "config.json": "00051fea4b0c7f95be88ced92305d8a921623c16a03a5d7c9d7044f39f739ded",
     "packs/usmc-counseling/pack.json": "3322f910355933a72158c908bb04042dfe7567020a294d31fc69aa6f814c6120"
   }
 }
